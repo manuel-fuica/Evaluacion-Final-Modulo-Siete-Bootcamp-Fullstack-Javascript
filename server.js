@@ -127,7 +127,7 @@ app.get('/api/bootcamp', async (req, res) => {
 
 
 
-
+//---------------CARGA INICIAL------------------
 const run = async () => {
     //creacion de usuarios
     const user1 = await userController.createUser({ firstname: 'Mateo', lastname: 'Diaz', email: 'mateo.diaz@correo.com' })
